@@ -1,0 +1,17 @@
+.menu {
+  .image {
+    height: auto;
+    width: 40px;
+  }
+  .menuOptions {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    .menuOption {
+      cursor: pointer;
+    }
+    .menuOption:hover {
+      text-decoration: underline;
+    }
+  }
+}
